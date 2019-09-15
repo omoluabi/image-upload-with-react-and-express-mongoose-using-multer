@@ -1,0 +1,19 @@
+{
+  "name": "image-upload-with-react-and-express-mongoose-using-multer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "heroku-postbuild":"cd views && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "mongoose": "5.7.0",
+    "multer": "1.4.2"
+  }
+}
